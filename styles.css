@@ -7,14 +7,7 @@ body {
     align-items: center;
     height: 100vh;
   }
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    margin: 0 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;  
+  
   .container {
     text-align: center;
     background-color: #ffbbc1;
@@ -22,10 +15,19 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
   #yesButton {
     transition: all 0.5s ease-in-out;
   }
+  
   
   .confirmation-container {
     display: none;
@@ -41,5 +43,9 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
+  }
+  
+  .show-image {
+    opacity: 1;
   }
   
